@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Eventos Inline</title>
+</head>
+<body>
+    <div id="app">
+        <!-- Criando um evento que chama a função mostraAlerta() -->
+        <button onclick="mostraAlerta()">Me pressione</button>
+        <br><br>
+        <!-- Criando um evento que chama a função mostraAlerta2() -->
+        <button onmouseover="mostraAlerta2()">Passe o mouse</button>
+    </div>
+
+    <script>
+        function mostraAlerta() {
+            alert('Você clicou no botão');
+        }
+
+        function mostraAlerta2() {
+            alert('O mouse passou pelo botão');
+        }
+    </script>
+</body>
+</html>

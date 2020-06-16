@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - Lidando com Elementos</title>
+</head>
+<body>
+    <div id="app">
+
+    </div>
+
+    <script>
+        // Criando um elemento para o link
+        var linkElement = document.createElement('a');
+        linkElement.setAttribute('href', 'https://www.youtube.com/');
+
+        // Criando um elemento para o texto do link
+        var textElement = document.createTextNode('Acessar o Youtube');
+        
+        // Juntando o linkElement e o textElement (textElement é filho do linkElement)
+        linkElement.appendChild(textElement);
+        
+        // Jogando o link na div HTML
+        var containerElement = document.querySelector('#app');
+        containerElement.appendChild(linkElement);
+    </script>
+</body>
+</html>
