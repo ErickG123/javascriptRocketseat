@@ -1,4 +1,4 @@
-# Notas Curso de JavaScript Rocketseat 
+# Notas Curso de JavaScript da Rocketseat 
 
 ## Variáveis:
 --> var txt = txt;
